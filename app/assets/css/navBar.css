@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.appNavBar {
+    @apply w-full h-20 flex items-center justify-between bg-gray-800 text-white;
+
+    .logo {
+        @apply h-12;
+    }
+}
