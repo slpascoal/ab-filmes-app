@@ -1,5 +1,5 @@
 <template>
-  <div class="appNavBar">
+  <header class="appNavBar">
     <img src="/img/Logo.png" alt="Logo" class="logo" />
     <div class="menu">
       <NuxtLink to="/">
@@ -30,7 +30,7 @@
       <UButton icon="i-lucide-log-out" variant="soft" class="logoutButton">
       </UButton>
     </div>
-  </div>
+  </header>
 </template>
 
 <script setup lang="ts">
