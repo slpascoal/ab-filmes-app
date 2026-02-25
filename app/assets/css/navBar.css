@@ -1,9 +1,45 @@
 @import "tailwindcss";
 
 .appNavBar {
-    @apply w-full h-20 flex items-center justify-between bg-gray-800 text-white;
+    @apply w-full h-20 flex items-center justify-between bg-transparent border-b border-[#131320] px-6;
 
     .logo {
         @apply h-12;
+    }
+
+    .menu {
+        @apply flex space-x-6;
+
+        .menuButtonActive {
+            @apply px-4 py-2 bg-[#1A1B2D] text-[#A85FDD] text-[16px];
+        }
+
+        .menuButton {
+            @apply px-4 py-2 bg-transparent text-[#7A7B9F] text-[16px];
+        }
+    }
+
+    .info {
+        @apply flex items-center space-x-3;
+
+        .separator {
+            @apply h-8;
+        }
+
+        .user {
+            @apply flex items-center space-x-3;
+
+            p {
+                @apply text-[#B5B6C9] text-[14px];
+            }
+
+            .avatar {
+                @apply w-8 h-8 rounded-md border border-[#7435DB];
+            }
+        }
+
+        .logoutButton {
+            @apply p-2 bg-[#1A1B2D] text-[#7A7B9F] text-[15px] cursor-pointer;
+        }
     }
 }

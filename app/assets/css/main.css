@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
 @import "tailwindcss";
 @import "@nuxt/ui";
 
@@ -6,5 +7,7 @@
 }
 
 .app {
-    @apply w-full h-screen bg-linear-to-t from-gray-950 to-gray-900 text-white;
+    @apply w-full h-screen bg-linear-to-t from-[#141422] to-[#0F0F1A] text-white;
+
+    font-family: 'Nunito Sans', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
